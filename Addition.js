@@ -9,7 +9,7 @@ function Create_Problem() {
     hundreds.value = Math.floor(Math.random()*10)
 
     var thousands = document.getElementById("thousandsplace")
-    thousands.value = Math.floor(Math.random()*10)
+    thousands.value = Math.floor(Math.random()*9) + 1
 
     var second_ones = document.getElementById("second_onesplace")
     second_ones.value = Math.floor(Math.random()*10)
@@ -18,10 +18,7 @@ function Create_Problem() {
     second_tens.value = Math.floor(Math.random()*10)
 
     var second_hundreds = document.getElementById("second_hundredsplace")
-    second_hundreds.value = Math.floor(Math.random()*10)
-
-    var one = document.getElementById("onesplace")
-    one.value = Math.floor(Math.random()*10)
+    second_hundreds.value = Math.floor(Math.random()*9) + 1
 }
 
 function add_ones() {
