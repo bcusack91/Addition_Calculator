@@ -124,7 +124,7 @@ function add_hundreds() {
     var second_hundredsplace = parseFloat(document.getElementById('second_hundredsplace').value);
     var carry_spot = parseFloat(document.getElementById('tenscarry').value);
     if (carry_spot === 1) {
-        var hundreds_sum = hundredsplace + second_hundredssplace + carry_spot;
+        var hundreds_sum = hundredsplace + second_hundredsplace + carry_spot;
     }
     else {
         var hundreds_sum = hundredsplace + second_hundredsplace;
