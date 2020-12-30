@@ -1,0 +1,39 @@
+#tenscarry {
+    visibility:hidden;
+}
+
+#hundredscarry {
+    visibility:hidden;
+}
+
+#thousandscarry {
+    visibility:hidden;
+}
+
+#tens_answer {
+    visibility: hidden;
+}
+
+#hundreds_answer {
+    visibility: hidden;
+}
+
+#thousands_answer {
+    visibility: hidden;
+}
+
+#tenthousands_answer {
+    visibility: hidden;
+}
+
+#add_tens_button {
+    display: none;
+}
+
+#add_hundreds_button {
+    display: none;
+}
+
+#add_thousands_button {
+    display: none;
+}

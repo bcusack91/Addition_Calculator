@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/Users/bcusack/Documents/CusackPrep/CusackPrep Online Learning Experience/Cusack Prep Projects/SAT Online Learning Experience/Addition of Numbers/Addition.js"></script>
+        <link rel="stylesheet" href="/Users/bcusack/Documents/CusackPrep/CusackPrep Online Learning Experience/Cusack Prep Projects/SAT Online Learning Experience/Addition of Numbers/Addition.css">
+    </head>
+    <body>
+        <button onclick='Create_Problem()'>Generate a New Problem!</button>
+        <form>
+            <label for="thousandscarry"></label>
+            <input type="text" id="thousandscarry" name ="thousandscarry" size="1" maxlength="1">
+            <label for="hundredscarry"></label>
+            <input type="text" id="hundredscarry" name ="hundredscarry" size="1" maxlength="1">
+            <label for="tenscarry"></label>
+            <input type="text" id="tenscarry" name ="tenscarry" size="1" maxlength="1">
+            <label for="onescarry"></label>
+            <input type="text" id="onescarry" name ="onescarry" size="1" maxlength="1">
+        </form>
+        <hr width="115" align="left">
+        <form>
+            <label for="thousandsplace"></label>
+            <input style="margin-left: 24px;" type="text" id="thousandsplace" name ="thousandsplace" size="1" maxlength="1">
+            <label for="hundredsplace"></label>
+            <input type="text" id="hundredsplace" name ="hundredsplace" size="1" maxlength="1">
+            <label for="tensplace"></label>
+            <input type="text" id="tensplace" name ="tensplace" size="1" maxlength="1">
+            <label for="onesplace"></label>
+            <input type="text" id="onesplace" name ="onesplace" size="1" maxlength="1">
+            <br>
+            <span>&nbsp;+&nbsp;</span>
+            <span style="margin-left: 24px;" ></span>
+            <label for="second_hundredsplace"></label>
+            <input type="text" id="second_hundredsplace" name ="second_hundredsplace" size="1" style="margin-left: 3px;" maxlength="1">
+            <label for="second_tensplace"></label>
+            <input type="text" id="second_tensplace" name ="second_tensplace" size="1" maxlength="1">
+            <label for="second_onesplace"></label>
+            <input type="text" id="second_onesplace" name ="second_onesplace" size="1" maxlength="1">
+        </form>
+        <hr width="115" align="left">
+        <form>
+            <label for="tenthousands_answer"></label>
+            <input type="text" id="tenthousands_answer" name="tenthousands_answer" size = "1">
+            <label for="thousands_answer"></label>
+            <input type="text" id="thousands_answer" name="thousands_answer" size = "1">
+            <label for="hundreds_answer"></label>
+            <input type="text" id="hundreds_answer" name="hundreds_answer" size = "1">
+            <label for="tens_answer"></label>
+            <input type="text" id="tens_answer" name="tens_answer" size = "1">
+            <label for="ones_answer"></label>
+            <input type="text" id="ones_answer" name="ones_answer" size = "1">
+        </form>
+        <button id="add_ones_button" onclick="add_ones()">Check Ones addition</button>
+        <button id="add_tens_button" onclick="add_tens()">Check Tens addition</button>
+        <button id="add_hundreds_button" onclick="add_hundreds()">Check Hundreds addition</button>
+        <button id="add_thousands_button" onclick="add_thousands()">Check addition</button>
+        <p id="test"></p>
+    </body>
+</html>
