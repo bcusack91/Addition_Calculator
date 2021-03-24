@@ -1,6 +1,6 @@
 **Name:** A Basic Addition Calculator
 
-**Description:** A step by step guide to adding 
+**Description:** This calculator includes options for students to input addition/subtraction tools.  Once students are in the system, they can check their work each step of the way.  If a student answers a question incorrectly, they are notified of their error.  This leads to immediate correction at each step of the process. 
 
 **Installation:** n/a
 
